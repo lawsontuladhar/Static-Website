@@ -1,4 +1,5 @@
 import WhoWeAreCard from "./WhoWeAreCard";
+import "./WhoWeAre.css";
 
 function WhoWeAre() {
   return (

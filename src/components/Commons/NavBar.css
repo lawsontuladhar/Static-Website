@@ -1,0 +1,54 @@
+.Navigation-Wrapper {
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid #f2f4f7;
+  padding: 0 112px;
+  align-items: center;
+}
+
+.Search-Bar {
+  cursor: pointer;
+}
+
+.Nav-Bar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Nav-Bar {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.Nav-Bar-logo-container {
+  width: 150px;
+}
+
+.Nav-Bar-Links {
+  display: flex;
+  gap: 40px;
+}
+.Nav-Bar-Links a {
+  color: #ffffff;
+}
+
+.Nav-Bar-Links :hover {
+  color: #d6d6d6;
+}
+
+.Nav-Bar-Links-Dropdown {
+  display: flex;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.Nav-Bar-Links-Dropdown img {
+  margin-left: 8px;
+}
+
+.Nav-Bar-Links-Dropdown :hover {
+  color: #d6d6d6;
+}

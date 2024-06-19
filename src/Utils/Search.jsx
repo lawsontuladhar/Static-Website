@@ -1,3 +1,5 @@
+import "./Utils.css";
+
 function Search() {
   return (
     <div className="search-bar">

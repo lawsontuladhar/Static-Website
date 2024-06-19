@@ -1,14 +1,13 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Homepage from "./components/Homepage.jsx";
-import Campaigns from "./components/Campaigns.jsx";
-import WhoWeAre from "./components/WhoWeAre.jsx";
-import News from "./components/News.jsx";
+import Homepage from "./components/Homepage/Homepage.jsx";
+import Campaigns from "./components/Campaigns/Campaigns.jsx";
+import WhoWeAre from "./components/WhoWeAre/WhoWeAre.jsx";
+import News from "./components/News/News.jsx";
+import LatestResources from "./components/LatestResources/LatestResources.jsx";
+import ContactUs from "./components/ContactUs/ContactUs.jsx";
+import Footer from "./components/Commons/Footer";
+import AboutUs from "./components/AboutUs/AboutUs.jsx";
+import GoToTop from "./Utils/GoToTop.jsx";
 import "./styles.css";
-import LatestResources from "./components/LatestResources.jsx";
-import ContactUs from "./components/ContactUs.jsx";
-import Footer from "./components/Footer.jsx";
-import AboutUs from "./components/AboutUs.jsx";
-import GoToTop from "./components/GoToTop.jsx";
 
 function App() {
   return (

@@ -1,3 +1,5 @@
+import "./ContactUs.css";
+
 function ContactUs() {
   return (
     <form className="contactUs-container" id="ContactUs">

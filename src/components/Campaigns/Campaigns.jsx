@@ -1,4 +1,5 @@
 import CampaignsCard from "./CampaignsCard";
+import "./Campaigns.css";
 
 function Campaigns() {
   return (

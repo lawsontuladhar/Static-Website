@@ -38,7 +38,7 @@ button {
 }
 
 /* ---Navbar CSS--- */
-.Navigation-Wrapper {
+/* .Navigation-Wrapper {
   height: 80px;
   display: flex;
   justify-content: space-between;
@@ -91,10 +91,10 @@ button {
 
 .Nav-Bar-Links-Dropdown :hover {
   color: #d6d6d6;
-}
+} */
 
 /* ---Homepage CSS--- */
-.homepage-container {
+/* .homepage-container {
   height: 662px;
   background-color: antiquewhite;
   background-image: linear-gradient(
@@ -146,10 +146,10 @@ button {
   font-size: 18px;
   font-weight: 500;
   background-color: rgba(255, 255, 255, 0.1);
-}
+} */
 
 /* ---Campaigns CSS--- */
-.campaigns-container {
+/* .campaigns-container {
   padding: 96px 160px;
   display: flex;
   flex-direction: column;
@@ -223,11 +223,11 @@ button {
 }
 .campaigns-card-container button {
   border: none;
-}
+} */
 
 /* ---Who We Are CSS--- */
 
-.who-we-are-container {
+/* .who-we-are-container {
   overflow: hidden;
 }
 .who-we-are-container {
@@ -265,8 +265,6 @@ button {
   border: none;
 }
 
-.who-we-are-images-container {
-}
 .who-we-are-card-component {
   width: 328px;
   height: 471px;
@@ -301,11 +299,11 @@ button {
 
 .container-2 {
   margin-top: 140px;
-}
+} */
 
 /* ---About Us CSS--- */
 
-.about-us-component {
+/* .about-us-component {
   padding: 80px 141.5px;
   height: 40px;
   display: flex;
@@ -336,11 +334,11 @@ button {
 }
 .right-arrow {
   display: flex;
-}
+} */
 
 /* ---News CSS--- */
 
-.news-container {
+/* .news-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -435,11 +433,11 @@ button {
   width: 117.47px;
   border: none;
   display: flex;
-}
+} */
 
 /* ---Latest Resources CSS--- */
 
-.latest-resources-container {
+/* .latest-resources-container {
   padding: 80px 164.63px;
   background-color: #f9f9ff;
   display: flex;
@@ -553,11 +551,11 @@ button {
   width: 117.47px;
   border: none;
   display: flex;
-}
+} */
 
 /* ---ContactUs CSS--- */
 
-.contactUs-container {
+/* .contactUs-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -644,10 +642,10 @@ button {
   border-color: #1d6fa3;
   width: 88px;
   height: 44px;
-}
+} */
 
-/* ---ContactUs CSS--- */
-
+/* ---Footer CSS--- */
+/* 
 .footer div,
 h2,
 p,
@@ -752,10 +750,10 @@ a {
 .work-with-us {
   display: flex;
   flex-direction: column;
-}
+} */
 
 /* --Go To Top button-- */
-.go-to-top-btn {
+/* .go-to-top-btn {
   width: 50px;
   position: absolute;
   right: 0;
@@ -827,11 +825,11 @@ a {
   height: 320px;
   border-radius: 8px;
   border: none;
-}
+} */
 
 /* --search-- */
 
-.search-bar {
+/* .search-bar {
   position: absolute;
   right: 600px;
   top: 120px;
@@ -848,4 +846,4 @@ a {
   position: relative;
   top: -30px;
   width: 20px;
-}
+} */

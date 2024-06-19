@@ -1,0 +1,75 @@
+.campaigns-container {
+  padding: 96px 160px;
+  display: flex;
+  flex-direction: column;
+  background-color: #f9f9ff;
+}
+.campaigns-header-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 768px;
+  margin: 0 auto;
+}
+
+.campaigns-header-container h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.campaigns-header-container p {
+  font-size: 20px;
+  margin: 20px 0 48px 0;
+  color: #667085;
+}
+
+.campaigns-container-card-components {
+  display: flex;
+  column-gap: 27px;
+  justify-content: center;
+}
+
+.campaigns-card-container {
+  width: 352px;
+  height: 597px;
+  border-radius: 22px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.campaigns-card-container-image {
+  height: 352px;
+  border-radius: 22px;
+  margin-bottom: 24px;
+  background-position: 0;
+  object-fit: cover;
+}
+.campaigns-card-container-header {
+  margin: 0 0 11px 32px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 27px;
+  font-family: "DM Sans", sans-serif;
+}
+.campaigns-card-container-content {
+  color: #505258;
+  margin: 0 0 29px 32px;
+  width: 290px;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 21px;
+  font-family: "DM Sans", sans-serif;
+}
+
+.campaigns-card-container-button {
+  color: #1d6fa3;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  margin: 0 0 0 32px;
+  gap: 4px;
+}
+.campaigns-card-container button {
+  border: none;
+}

@@ -1,4 +1,4 @@
-import React from "react";
+import "./Utils.css";
 
 function GoToTop() {
   const top = () => {

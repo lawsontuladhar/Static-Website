@@ -1,0 +1,88 @@
+.contactUs-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 186.5px;
+  width: 550px;
+  margin: 0 auto;
+}
+
+.contactUs-header {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+
+.contactUs-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 32px auto;
+  width: 498px;
+  text-align: center;
+  color: #7c7d82;
+}
+
+.input-forms {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin-bottom: 32px;
+}
+.input-forms label {
+  margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+.input-forms input {
+  height: 44px;
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, 0.16);
+}
+
+.form-first-last-name {
+  display: flex;
+  gap: 16px;
+}
+
+.form-first-name {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+}
+.form-last-name {
+  width: 267px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.text-area {
+  width: 550px;
+  height: 117px;
+  overflow: auto;
+  border-radius: 8px;
+  border-color: rgba(0, 0, 0, 0.16);
+  resize: none;
+}
+
+.form-submit-btn {
+  font-family: "DM Sans", serif;
+  color: #24272e;
+  gap: 5.47px;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 700;
+  border-width: 1px;
+  border-color: #1d6fa3;
+  width: 88px;
+  height: 44px;
+}

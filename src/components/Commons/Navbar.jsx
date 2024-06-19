@@ -1,8 +1,9 @@
 import { useState } from "react";
-import searchIcon from "../../assets/icons/search-solid-white.svg";
-import CompanyLogo from "../../assets/images/catalog-logo-white.png";
-import DropDown from "./DropDown";
-import Search from "./Search";
+import searchIcon from "../../../assets/icons/search-solid-white.svg";
+import CompanyLogo from "../../../assets/images/catalog-logo-white.png";
+import DropDown from "../../UI/DropDown";
+import Search from "../../Utils/Search";
+import "./NavBar.css";
 
 function Navbar() {
   const [open, setOpen] = useState(false);
@@ -34,7 +35,7 @@ function Navbar() {
             <a href="#Resource">
               Resources
               <img
-                src="../assets/icons/chevron-down-white.svg"
+                src="../../assets/icons/chevron-down-white.svg"
                 alt="down arrow"
                 width="14px"
               />

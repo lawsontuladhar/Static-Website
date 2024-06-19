@@ -1,0 +1,73 @@
+.who-we-are-container {
+  overflow: hidden;
+}
+.who-we-are-container {
+  margin-top: 53px;
+  padding: 96px 160px;
+  display: flex;
+  gap: 64px;
+  justify-content: center;
+}
+
+.who-we-are-text-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 368px;
+}
+.who-we-are-text-header {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+}
+.who-we-are-text-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  margin: 20px 0 48px 0;
+}
+.who-we-are-btn {
+  color: rgb(28, 111, 163);
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  gap: 4px;
+}
+.who-we-are-text-container button {
+  border: none;
+}
+
+.who-we-are-card-component {
+  width: 328px;
+  height: 471px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  overflow: hidden;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.who-we-are-card-component p {
+  color: #000;
+}
+.who-we-are-card-component img {
+  width: 328px;
+  height: 415px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+  background-position: 0;
+  object-fit: cover;
+  transition: all 0.3s ease-in-out;
+}
+.who-we-are-card-component img:hover {
+  border-radius: 16px;
+  transform: scale(1.1);
+}
+.who-we-are-images-container {
+  display: flex;
+  gap: 32px;
+}
+
+.container-2 {
+  margin-top: 140px;
+}

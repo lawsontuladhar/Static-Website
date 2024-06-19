@@ -1,4 +1,5 @@
 import LatestResourcesCard from "./LatestResourcesCard";
+import "./LatestResources.css";
 
 function LatestResources() {
   return (

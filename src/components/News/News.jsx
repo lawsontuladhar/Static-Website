@@ -1,4 +1,5 @@
 import NewsCard from "./NewsCard";
+import "./News.css";
 import { useEffect, useState } from "react";
 
 const API_URL =

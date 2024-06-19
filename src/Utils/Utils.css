@@ -1,0 +1,95 @@
+/* --Go To Top button-- */
+.go-to-top-btn {
+  width: 50px;
+  position: absolute;
+  right: 0;
+  margin-top: -0px;
+  padding: 1rem;
+
+  cursor: pointer;
+  -webkit-filter: drop-shadow(2px 2px 2px #999999);
+  filter: drop-shadow(2px 2px 2px #999999);
+}
+
+.drop-down-menu {
+  position: absolute;
+  top: 69px;
+  right: 850px;
+  width: 412px;
+  height: 320px;
+  border-radius: 8px;
+  border: none;
+  color: #101828;
+  background-color: #ffffff;
+}
+
+.dropdown-icons {
+  width: 24px;
+}
+.drop-down-menu div {
+  margin-bottom: 8px;
+}
+.drop-down-menu h1 {
+  display: flex;
+  align-items: center;
+  width: 308px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.drop-down-menu p {
+  width: 308px;
+  height: 20px;
+  color: #667085;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.drop-down-menu-component {
+  padding: 24px 20px 0 20px;
+  display: flex;
+  align-items: flex-start;
+  cursor: pointer;
+}
+
+.drop-down-menu-content {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.drop-down-menu ::before {
+  content: "";
+  position: absolute;
+  top: -1px;
+  right: 1px;
+  width: 412px;
+  height: 320px;
+  border-radius: 8px;
+  border: none;
+}
+
+/* --search-- */
+
+.search-bar {
+  position: absolute;
+  right: 600px;
+  top: 120px;
+}
+
+.search-bar input {
+  width: 640px;
+  border-radius: 12px;
+  border: none;
+  padding: 16px;
+}
+
+.close-search-icon {
+  position: relative;
+  top: -30px;
+  width: 20px;
+}
